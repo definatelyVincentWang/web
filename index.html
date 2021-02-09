@@ -1,16 +1,213 @@
-<!--- Vincent Wang
+<!-----Vincent Wang
 IntroCS pd 6 sec 10
-HW 002 -- PUblishio! / HTML / Get a basic understanding of head in HTML
-2021-05-02 <---->
+HW 003 -- Thank you for coming to my tedtalk / HTML / Get a basic understanding of tables in HTML
+2021-05-09
+------>
 
 <html>
 <head>
-<h1> RVSS</h1>
-<h2> Vincent Wang <br> Richard Chen, Stanley Zheng, Steven Cen</h2>
-<title> duckyyy </title>
+    <h1>PC Components</h1>
+    <title>Components of a PC</title>
+    <h2>Table of Contents</h2>
+    <ul>
+        <li>Motherboard</li>
+        <ul>
+            <li>Purpose</li>
+            <li>What motherboard is for you</li>
+            <li>Determining what each specification means</li>
+        </ul>
+        <li>CPU</li>
+        <ul>
+            <li>What is the CPU?</li>
+            <li>CPU Clock Speeds</li>
+            <li>CPU Cores and Threads</li>
+            <li>Overclocking</li>
+            <li>AMD</li>
+            <ul>
+                <li>Athlon</li>
+                <li>Threadripper</li>
+                <li>Ryzen</li>
+            </ul>
+            <li>Intel</li>
+            <ul>
+                <li>Zeon</li>
+                <ul>
+                    <li>Intel Xeon E</li>
+                    <li>Intel Xeon W</li>
+                    <li>Intel Xeon D</li>
+                    <li>Intel Xeon Scalable</li>
+                    <ul>
+                        <li>Xeon Platinum</li>
+                        <li>Xeon Gold</li>
+                        <li>Xeon Silver</li>
+                        <li>Xeon Bronze</li>
+                    </ul>
+                </ul>
+                <li>Intel Core</li>
+                <ul>
+                    <li>Intel Core i3</li>
+                    <li>Intel Core i5</li>
+                    <li>Intel Core i7</li>
+                    <li>Intel Core i9</li>
+                </ul>
+                <li>Celeron</li>
+            </ul>
+        </ul>
+        <li>GPU</li>
+        <ul>
+            <li>What is a GPU</li>
+            <li>GPU Clock Speeds</li>
+            <li>Cuda Cores</li>
+            <li>Nvidia</li>
+            <ul>
+                <li>GTX</li>
+                <ul>
+                    <li>GTX 1050</li>
+                    <li>GTX 1060</li>
+                    <li>GTX 1070</li>
+                    <li>GTX 1080</li>
+                </ul>
+                <li>RTX</li>
+                <ul>
+                    <li>RTX 2060</li>
+                    <li>RTX 2060 Super</li>
+                    <li>RTX 2060 ti</li>
+                    <li>RTX 2070</li>
+                    <li>RTX 2070 Super</li>
+                    <li>RTX 2070 ti</li>
+                    <li>RTX 2080</li>
+                    <li>RTX 2080 ti</li>
+                    <li>RTX 2080 Super</li>
+                    <li>RTX 3060 ti</li>
+                    <li>RTX 3070</li>
+                    <li>RTX 3070 ti</li>
+                    <li>RTX 3080</li>
+                    <li>RTX 3090 ti</li>
+                </ul>
+                <li>GX</li>
+            </ul>
+            <li>AMD</li>
+            <ul>
+                <li>RX 6000 Series</li>
+                <li>RX 5000 Series</li>
+                <li>Rx 500 Series</li>
+            </ul>
+        </ul>
+        <li>RAM</li>
+        <ul>
+            <li>What is RAM?</li>
+            <li>How much RAM?</li>
+            <li>RAM Speeds</li>
+        </ul>
+        <li>Storage</li>
+        <ul>
+            <li>What is Storage?</li>
+            <li>How much storage?</li>
+            <li>Storage Types</li>
+            <ul>
+                <li>SSD</li>
+                <ul>
+                    <li>Sata</li>
+                    <li>NVME</li>
+                </ul>
+                <li>Hard Drive</li>
+            </ul>
+        </ul>
+        <li>Power Supply</li>
+        <ul>
+            <li>What is the Power Supply</li>
+            <li>PSU efficiency</li>
+            <li>How many watts do you need?</li>
+        </ul>
+    </ul>
 </head>
 
 <body>
-<p> hello world </p>
+    <div class="Motherboard">
+        <h2>Motherboard</h2>
+        <h3>Purpose of the Motherboard</h3>
+        <p>The motherboard connects the entire system, from your CPU, to your powersupply, everything goes through the motherboard.</p>
+        <h3>What motherboard is right for you?</h3>
+        <p>Choosing the motherboard is quite hard, as there are thounsands of different types of motherboards ranging from 50 dollars to thousands of dollars.</p>
+        <h3>Motherboard Specifications</h3>
+        <h4>Socket Types</h4>
+        <p>Motherboards have different CPU sockets. Determining the correct CPU socket for your CPU is very easy.</p>
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2020/05/AMD-Ryzen-4000-Zen-3-Vermeer-Desktop-CPU-AM4-Compatibility-Chart.jpg">
+        <p>This is the motherboard compatability for AMD Ryzen</p>
+        <img src="http://hexus.net/media/uploaded/2015/1/e02166f0-bbff-4f48-884c-7e569d90bda2.png">
+        <p>This is the motherbaord compatability for 5th gen intel. You can find more specs at <a href="https://www.intel.com/content/www/us/en/support/topics/compatibility.html">Intel's Website</a></p>
+        <h4>Complicated Motherboard specs</h4>
+        <p>Different things like wifi6, 10gb ethernet, pcie, pcie lanes, etc. can all seem too complicated, but all you need to know is nowadays, all motherboards will have at least pcie gen 3, with at least 4 lanes of pcie (it is recommended to have 8 for gpus), and most motherboards include some sort of networking, ethernet or wifi.</p>
+    </div>
+    <div class="CPU">
+        <h2>CPU</h2>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.makeuseof.com%2Ftag%2Fcpu-technology-explained%2F&psig=AOvVaw2xwXV4T6xrLQSo1ug5HEYB&ust=1612974027110000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjR_dKa3e4CFQAAAAAdAAAAABAD">
+        <h3>WHat is the CPU?</h3>
+        <p>The CPU, or central processing unit, is basically the brains of your computer. It does most of the calculations and keeps your pc running.</p>
+        <h3>CPU Clock Speeds</h3>
+        <p>CPUs have many different classifications. Clock speeds are just one of them. The clock speed of your CPU determines how fast your CPU is, thus determining how fast you can do things like runnning a benchmark or playing a game.</p>
+        <h3>CPU Cores and Threads</h3>
+        <p>CPU Cores and Threads help determine how many things your CPU can do at once. The more cores and threads you have, the faster you can do many multicore or mulithreaded tasks.</p>
+        <h3>Overclocking</h3>
+        <p>Currently, you can overclock your CPU, if you have the wattage and temperatures to do so. CPU overclocking however, can be very unstable, and can sometimes lead to crashes.</p>
+        <h3>AMD vs Intel</h3>
+        <p>Currently, the two main desktop chip manufacturers are AMD and Intel.</p>
+        <h4>AMD Athlon</h4>
+        <p>Athlon is a very old CPU, although still competetive, there are better options for a few extra bucks.</p>
+        <h4>Ryzen</h4>
+        <p>Ryzen, is a much better option than Athlon. There are 4 different types of Ryzen: Ryzen 3, Ryzen 5, Ryzen 7, and Ryzen 9. They have different prices and different amounts of CPU cores, threads, and clockspeeds.</p>
+        <h4>Threadripper</h4>
+        <p>On the workstation side of things, Threadripper is one of the best CPUs for large workloads, with its high clockspeeds and extremely large core counts, going up to 64 cores and 128 threads. Threadripper also supports a large amount of RAM and PCIE lanes.</p>
+        <h4>Intel Zeon</h4>
+        <p>Zeon is intel's competeter for workstations. They have large amounts of cores and high clockspeeds, but most can't compare to threadrippers much more powerful base clock and larger amounts of cores.</p>
+        <h4>Intel Core</h4>
+        <p>Intel Core is intel's latest CPU lineup. They have 4 different types: Core i3, Core i5, Core i7, and Core i9. These are direct competeters to AMD's Ryzen.</p>
+        <h4>Intel's Celeron lineup, is very similar to AMD's athlon lineup of CPUs. These are usually extremely cheap, however are much worse than newer CPUs.</h4>
+    </div>
+    <div class="GPU">
+        <img src="https://www.pcgamesn.com/wp-content/uploads/2019/02/Nvidia-GTX-1080-Ti-Pascal-GPU-scale.jpg">
+        <h3>What is a GPU?</h3>
+        <p>The GPU, or Graphics Processing unit, displays stuff to a screen. Better GPUs also run much better in tasks like machine learning and gaming.</p>
+        <h3>GPU Clockspeeds</h3>
+        <p>GPUs, like CPUs, have clockspeeds, determing how fast they can render things onto a screen.</p>
+        <h3>Cuda Cores</h3>
+        <p>Cuda Cores are a new modern technology which basically allow the GPU to do large amounts of calculations. This is very important in machine learning training, but also ray tracing in games.</p>
+        <h3>Nvidia GPUs</h3>
+        <p>Nvidia has many GPUs. The RTX lineup is thier newest lineup of GPUs, ranging from just 400 dollars to up to 1.5k. Their GTX and RX lineup are both very old, and nowadays are mostly used by bitcoin miners.</p>
+        <h3>AMD GPUs</h3>
+        <p>AMD has been playing the catchup game with Nvidia, but their newest 6000 series graphics cards are a viable competitor to Nvidia's new 3000 series GPUs. Their drivers however, may do them dirty, as their drivers are really bad.</p>
+    </div>
+    <div class="RAM">
+        <img src="https://i0.wp.com/pc-choice.com.au/wp-content/uploads/2016/03/Types-of-Computer-Memory.jpg?fit=600%2C400&ssl=1">
+        <h3>What is RAM?</h3>
+        <p>Ram, or random acess memory, is what the CPU uses to store data quick and easy. If your PC crashes, everything stored in the RAM is gone.</p>
+        <h3>How much RAM?</h3>
+        <p>Depending on your budget and the CPU you choose, you can have various choices for RAM. You usually want at least 8gb of RAM, but for gaming, 16 gb is recommended. FOr workstations, you can go up to 256 gb of RAM.</p>
+        <h3>Ram clock speeds</h3>
+        <p>RAM can clock at many different speeds. The slowest DDR4 starts at 2666mhz, but the fastest can go up to 4000mhz of RAM.</p>
+    </div>
+    <div class="Storage">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6331/6331502_sa.jpg">
+        <h3>What is Storage?</h3>
+        <p>Storage is what the computer uses to store things like files and folders.</p>
+        <h3>How much Storage?</h3>
+        <p>If you are doing things like video editing, it is recommended that you get larger amounts of storage, with a minimum of a terrabyte of storage.</p>
+        <h3>Types of Storage</h3>
+        <h4>Hard Drives</h4>
+        <p>There are many different types of storage devices. The cheapest and slowest are Hard Drives. Hard Drives are very slow because they are mechanical, and they may break after a few years.</p>
+        <h4>Sata SSDs</h4>
+        <p>The next type of storage are Sata SSDs. These SSDs are slower than NVME storage, but are much faster than hard drives because they still use solid state storage.</p>
+        <h4>NVME SSDs</h4>
+        <p>NVME SSDs use PCIE to get extremely high speeds. They are placed in an M.2 slot on the motherboard. These are extremely fast and are pretty expensive, with a terrabyte of this storage coming in at 200 dollars.</p>
+    </div>
+    <div class="Power Supply">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51KMMloK5gL._AC_SX466_.jpg">
+        <h3>What is the Power Supply</h3>
+        <p>The Power Supply is how a PC gets its juice. The power supply keeps the pc running.</p>
+        <h3>PSU efficiency</h3>
+        <p>There are many different PSU efficiencies, starting with 80+ bronze, and going all the way up to 80+ titanium. These deterimine how efficient your PSU is.</p>
+        <h3>How many watts do you need?</h3>
+        <p>To determine the wattage you need, you should try and use tools like the power supply calculator on newegg: <a href="https://www.newegg.com/tools/power-supply-calculator/"></a></p>
+    </div>
 </body>
 </html>
